@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.healthyinside.in"
+        }
+      ],
+      "destination": "https://healthyinside.in/$1",
+      "permanent": true
+    }
+  ]
+}
